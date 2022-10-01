@@ -15,8 +15,13 @@ I tried out some commands such as touch, vim, cp. The touch command is capable o
 <br>
 To move a file from the remote computer to the local computer, use the scp command. The command is read as scp then followed by the source and its destination.
 <br>
+<img width="755" alt="Screen Shot 2022-09-30 at 9 39 13 PM" src="https://user-images.githubusercontent.com/78514873/193392859-6d03a017-62b4-44df-b3e5-72cb93a181e9.png">
 
 <br>
+ssh-keygen makes it easier for UCSD students to not have to frequently enter their passcode to login or scp. By calling this command, it will take the account as an input and privately input the password.
 <br>
+<img width="1440" alt="Screen Shot 2022-09-30 at 9 51 18 PM" src="https://user-images.githubusercontent.com/78514873/193393148-ca4f63f5-310b-4bc5-a2fe-bfccd0456df6.png">
+
 <br>
+Overall, using ssh-keygen can make the whole process smoother without repeating tedious tasks such as inputting a passcode. In addition, utilizing the up key can access a previous used command to not have to retype a command used.
 <br>
