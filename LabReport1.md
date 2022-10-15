@@ -1,3 +1,4 @@
+# Lab Report #1
 <img width="1440" alt="Screen Shot 2022-09-28 at 2 47 36 PM" src="https://user-images.githubusercontent.com/78514873/193387251-b7bad6bd-3d3d-4409-b775-095aff9d3229.png">
 <br>
 To install VScode, search for VScode install on a search engine. Visit the website that contains this application and download appropriately according to your own computer.
