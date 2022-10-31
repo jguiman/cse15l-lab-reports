@@ -25,14 +25,18 @@
 <br>
 #### Get the line number and (#) of text before using: grep -n -B # "Some String" <file1> ... <filen>
 <br>
-2. The following shows how to get the line number and text before where the target string is found.
+2. The following shows how to get the line number and (# of line being 2 in this case) text before where the target string is found.
 <br>
 <img width="948" alt="Screen Shot 2022-10-31 at 11 18 10 AM" src="https://user-images.githubusercontent.com/78514873/199080845-27f1367d-b3f5-4bf1-99e8-f596e2aff458.png">
 
 <br>
 **Knowing the lines before the target word can help with the users understanding of how a word is being used. In the example above, I wanted to search for pregnant in the context of a woman who is carrying a baby. However, the above example uses it as a figure of speech.**
 <br>
-3.
+#### Get the line number and (#) of text after using: grep -n -A # "Some String" <file1> ... <filen>
+<br>
+3. The following shows how to get the line number and (# of line being 2 in this case) text after where the target string is found.
+<br>
+
 <br>
 ### Method 3: Read lines found before/after target string is found.
 <br>
