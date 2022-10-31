@@ -16,7 +16,7 @@
 <br>
 #### Get the line number using: grep -n "Some String" <file1> ... <filen>
 <br>
-1. The following is how to get the line numbers of how to get the line number of the string found from a file(s).
+Example 1: The following is how to get the line numbers of how to get the line number of the string found from a file(s).
 <br>
 <img width="834" alt="Screen Shot 2022-10-31 at 10 59 47 AM" src="https://user-images.githubusercontent.com/78514873/199078806-2cb7839c-6eb7-44af-8877-244568db54da.png">
 
@@ -25,7 +25,7 @@
 <br>
 #### Get the line number and (#) of text before using: grep -n -B # "Some String" <file1> ... <filen>
 <br>
-2. The following shows how to get the line number and (# of line being 2 in this case) text before where the target string is found.
+Example 2: The following shows how to get the line number and (# of line being 2 in this case) text before where the target string is found.
 <br>
 <img width="948" alt="Screen Shot 2022-10-31 at 11 18 10 AM" src="https://user-images.githubusercontent.com/78514873/199080845-27f1367d-b3f5-4bf1-99e8-f596e2aff458.png">
 
@@ -34,8 +34,9 @@
 <br>
 #### Get the line number and (#) of text after using: grep -n -A # "Some String" <file1> ... <filen>
 <br>
-3. The following shows how to get the line number and (# of line being 2 in this case) text after where the target string is found.
+Example 3: The following shows how to get the line number and (# of line being 2 in this case) text after where the target string is found.
 <br>
+<img width="1109" alt="Screen Shot 2022-10-31 at 11 28 39 AM" src="https://user-images.githubusercontent.com/78514873/199082724-2dd326a0-c852-42ab-a92f-1a9172baf925.png">
 
 <br>
 ### Method 3: Read lines found before/after target string is found.
