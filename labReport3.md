@@ -2,13 +2,16 @@
 <br>
 ## 3 Alternative Ways to use the grep Command
 <br>
-### Method 1: Find an exact target string with the target not just being a substring.
+### Method 1: Find the exact target string with the target not just being a substring.
 <br>
 grep -w "some string" <file 1> ... <>
 <br>
-### Method 2: No Case Sensitivity
+### Method 2: Getting the line number of the string found and to read lines before/after.
 <br>
-grep -i "Some String"
+#### Get the line number using: grep -n "Some String"
 <br>
-### Method 3: 
+
 <br>
+### Method 3: Read lines found before/after target string is found.
+<br>
+
