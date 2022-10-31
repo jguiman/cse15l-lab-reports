@@ -27,6 +27,11 @@
 <br>
 2. The following shows how to get the line number and text before where the target string is found.
 <br>
+<img width="948" alt="Screen Shot 2022-10-31 at 11 18 10 AM" src="https://user-images.githubusercontent.com/78514873/199080845-27f1367d-b3f5-4bf1-99e8-f596e2aff458.png">
+
+<br>
+**Knowing the lines before the target word can help with the users understanding of how a word is being used. In the example above, I wanted to search for pregnant in the context of a woman who is carrying a baby. However, the above example uses it as a figure of speech.**
+<br>
 3.
 <br>
 ### Method 3: Read lines found before/after target string is found.
