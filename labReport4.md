@@ -71,5 +71,5 @@ Steps:
 <br>
 #### Q: What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 <br>
-#### A:
+#### A: If I was working with a program with many files, I would use style 1 because it would be easier to navigate through different files I would have to edit. I know I can view a couple files in vim simultaneously, but it gets more difficult when there is more files to work with. However, if the project is smaller with less files I would go with style 2 because I can use the shortcuts of vim and can navigate through each file fine since there is only a few. Depending on the task, I will definitely try to use the vim shortcuts in order to save my own time. However if I don't know the vim shortcut to complete the task I want, I will have to use vscode editor to manually complete the task.
 <br>
