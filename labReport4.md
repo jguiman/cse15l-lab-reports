@@ -36,9 +36,9 @@
 <br>
 ## Part 2
 <br>
-### Two Methods of the Editing Task
+### Two Styles of the Editing Task
 <br>
-#### Method 1: Start with the program opened in VisualStudioCode, make the edits there, secure copy the directory to a remote server, run bash test.sh to make sure it works.
+#### Style 1: Start with the program opened in VisualStudioCode, make the edits there, secure copy the directory to a remote server, run bash test.sh to make sure it works.
 <br>
 Steps:
 <br>
@@ -51,7 +51,7 @@ Steps:
 7. I then ssh into the server.
 8. Lastly I run bash test.sh which works.
 9. Overall: It was a little tedious having to manually highlight and retype start with base. It was also annoying to secure copy the directory then ssh in order to run test.sh to see if it works.
-#### Method 2:
+#### Style 2:
 <br>
 Steps:
 <br>
@@ -63,7 +63,7 @@ Steps:
 6. I run bash test.sh which works.
 7. Overall: This took less steps and time compared to the first. Starting from the ssh session and the vim command made the replacements very fast and convenient. 
 <br>
-###Questions & Answers:
+### Questions & Answers:
 <br>
 #### Q: Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 <br>
