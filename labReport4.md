@@ -17,7 +17,7 @@
 <br>
 <img width="100" alt="Screen Shot 2022-11-11 at 9 42 19 PM" src="https://user-images.githubusercontent.com/78514873/201459356-1a1e72f3-bc2a-484c-9250-d366f4ecff4c.png">
 <br>
-#### Step 2: You will see the line range for this function block is 12 through 26. Use the command :12,26s/start base/g <Enter> while in normal mode.
+#### Step 2: You will see the line range for this function block is 12 through 26. Use the command :12,26s/start/base/g <Enter> while in normal mode.
 <br>
 ### Before the command :12,26s/start/base/g<Enter> in Normal Mode.
 <br>
