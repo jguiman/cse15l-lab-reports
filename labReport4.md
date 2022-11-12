@@ -36,3 +36,40 @@
 <br>
 ## Part 2
 <br>
+### Two Methods of the Editing Task
+<br>
+#### Method 1: Start with the program opened in VisualStudioCode, make the edits there, secure copy the directory to a remote server, run bash test.sh to make sure it works.
+<br>
+Steps:
+<br>
+1. I opened visual studio code.
+2. I used \<control\>+f command to show all instances of the string start.
+3. I saw there were 3 instances of start in the function block.
+4. For each instance, I highlighted the start with my cursor then manually typed base.
+5. I moved my cursor to the top left of the screen and clicked file then save.
+6. I opened a terminal from visual studio code and secure copied it to the remote server.
+7. I then ssh into the server.
+8. Lastly I run bash test.sh which works.
+9. Overall: It was a little tedious having to manually highlight and retype start with base. It was also annoying to secure copy the directory then ssh in order to run test.sh to see if it works.
+#### Method 2:
+<br>
+Steps:
+<br>
+1. I ssh into the remote server and start there.
+2. I cd into docSearch and open docSearcherServer.java in vim.
+3. I use the command :set number\<Enter\> to set the line numbers.
+4. I use the command :12,26s/start/base/g\<Enter\> to replace the appropriate start instances with base.
+5. I save and quit using the command :wq\<Enter\>
+6. I run bash test.sh which works.
+7. Overall: This took less steps and time compared to the first. Starting from the ssh session and the vim command made the replacements very fast and convenient. 
+<br>
+###Questions & Answers:
+<br>
+#### Q: Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+<br>
+#### A: I would chose style 2 because it was convenient to start in the ssh session already, use the vim commands to complete the task fast, and there was less steps and overall time wasted in not having to secure copy then ssh into the remote server.
+<br>
+#### Q: What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+<br>
+#### A:
+<br>
