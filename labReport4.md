@@ -28,9 +28,11 @@
 <img width="590" alt="Screen Shot 2022-11-11 at 10 12 40 PM" src="https://user-images.githubusercontent.com/78514873/201460289-30709b21-26b8-4435-bc1b-f79bf383120b.png">
 
 <br>
-#### Step 3: Enter the command :w (while in normal mode) in order to save the changes.
+#### Step 3: Enter the command :w\<Enter\> (while in normal mode) in order to save the changes.
 <br>
 <img width="601" alt="Screen Shot 2022-11-11 at 10 17 07 PM" src="https://user-images.githubusercontent.com/78514873/201460455-34eb073e-4a06-4aed-8115-be8597390f13.png">
 
 <br>
+<br>
 ## Part 2
+<br>
