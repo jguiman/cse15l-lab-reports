@@ -40,7 +40,7 @@
 <br>
 #### Style 1: Start with the program opened in VisualStudioCode, make the edits there, secure copy the directory to a remote server, run bash test.sh to make sure it works.
 <br>
-Steps (1-9):
+Steps:
 <br>
 1. I opened visual studio code.
 2. I used \<control\>+f command to show all instances of the string start.
@@ -51,9 +51,10 @@ Steps (1-9):
 7. I then ssh into the server.
 8. Lastly I run bash test.sh which works.
 9. Overall: It was a little tedious having to manually highlight and retype start with base. It was also annoying to secure copy the directory then ssh in order to run test.sh to see if it works.
+<br>
 #### Style 2:
 <br>
-Steps (10-16):
+Steps:
 <br>
 1. I ssh into the remote server and start there.
 2. I cd into docSearch and open docSearcherServer.java in vim.
