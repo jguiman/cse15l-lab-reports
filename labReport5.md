@@ -31,4 +31,5 @@
 6. if [ -e "student-submission/ListExamples.java" ], if we find ListExamples.java (which we did not and returned nonzero.)
 7. else echo "The ListExamples file was not found.", this statement was printed to the out because ListExamples.java was not found.
 8. echo "Your grade is $grade/3.", There grade ended up being 0/3 because we could not find ListExamples.java, the most important file of the assignment.
+9. Lines 12 - 35 did not run at all because we exited out early in the first if statement.
 <br>
