@@ -21,5 +21,14 @@
 <img width="768" alt="Screen Shot 2022-11-28 at 11 44 57 AM" src="https://user-images.githubusercontent.com/78514873/204366982-981f99d4-5fc3-411b-9067-e5f7df1137d8.png">
 
 <br>
-## Trace of the script
+## Trace of the Script (On Example #3)
+<br>
+1. rm -rf student-submission, removes student-submission folder with exit code of 0.
+2. rm ListExamples.java, removes java file called ListExamples.java with exit code of 0.
+3. rm ListExamples.class, removes class file called ListExamples.class with exit code of 0.
+4. git clone $1 student-submission, cloned student #3's repository successfully with exit code of 0.
+5. grade=0, initialize their grade.
+6. if [ -e "student-submission/ListExamples.java" ], if we find ListExamples.java (which we did not and returned nonzero.)
+7. else echo "The ListExamples file was not found.", this statement was printed to the out because ListExamples.java was not found.
+8. echo "Your grade is $grade/3.", There grade ended up being 0/3 because we could not find ListExamples.java, the most important file of the assignment.
 <br>
